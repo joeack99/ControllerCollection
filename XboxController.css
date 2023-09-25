@@ -1,9 +1,14 @@
-.XboxController{
+.card{
     display: flex;
     flex-direction: column;
     gap: 1em;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.XboxController{
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
 }
 img{
     max-height: 250px;
@@ -11,5 +16,8 @@ img{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+h1{
+    text-align: center;
 }
 
